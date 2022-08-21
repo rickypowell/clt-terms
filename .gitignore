@@ -106,5 +106,8 @@ dist
 # build
 build/
 
+# vscode
+.vscode
+
 # Docusaurus
 .docusaurus
