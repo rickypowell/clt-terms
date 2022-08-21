@@ -1,4 +1,6 @@
-# Website
+# Car Loan Talk - Terms
+
+Terminology for Car Load Talk
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
