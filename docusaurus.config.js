@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const termsLabel = 'Terms';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Car Loan Talk Terminology',
@@ -61,7 +63,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: termsLabel,
           },
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -74,10 +76,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: termsLabel,
             items: [
               {
-                label: 'Tutorial',
+                label: termsLabel,
                 to: '/docs/intro',
               },
             ],
