@@ -65,18 +65,13 @@ const config = {
             position: 'left',
             label: termsLabel,
           },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: termsLabel,
+            title: 'Site Map',
             items: [
               {
                 label: termsLabel,
@@ -88,16 +83,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://instagram.com',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://facebook.com',
               },
             ],
           },
@@ -105,8 +100,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Car Loan Talk',
+                href: 'https://carloantalk.com',
               },
             ],
           },
