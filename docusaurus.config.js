@@ -4,12 +4,12 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const termsLabel = 'Terms';
+const termsLabel = 'Loan Terms Glossary';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Car Loan Talk Terminology',
-  tagline: 'Words and phrases defined for you to provide clarity',
+  title: 'A Glossary of Car Loan Terms',
+  tagline: 'Helping to understand the language of car loans',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,10 +36,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          path: './terms',
+          routeBasePath: '/terms'
         },
         blog: false,
         theme: {
@@ -106,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Car Loan Talk, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
