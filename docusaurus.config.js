@@ -5,6 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const termsLabel = 'Loan Terms Glossary';
+const docsRouteBasePath = '/terms';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,7 +38,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: './terms',
-          routeBasePath: '/terms'
+          routeBasePath: docsRouteBasePath
         },
         blog: false,
         theme: {
@@ -73,7 +74,7 @@ const config = {
             items: [
               {
                 label: termsLabel,
-                to: '/docs/intro',
+                to: docsRouteBasePath + '/intro',
               },
             ],
           },
