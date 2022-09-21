@@ -59,6 +59,25 @@ const config = {
             position: 'left',
             label: termsLabel,
           },
+          {
+            label: 'Lenders',
+            type: 'dropdown',
+            position: 'left',
+            items: [
+              {
+                label: 'Lead Providers',
+                href: '/lenders/lead-providers',
+              },
+              {
+                label: 'Prime Lenders',
+                href: '/lenders/prime-lenders',
+              },
+              {
+                label: 'Subprime Lenders',
+                href: '/lenders/subprime-lenders',
+              },
+            ],
+          },
         ],
       },
       footer: {
