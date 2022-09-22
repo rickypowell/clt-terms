@@ -35,7 +35,10 @@ const config = {
           path: './terms',
           routeBasePath: docsRouteBasePath
         },
-        blog: false,
+        blog: {
+          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: 'ALL',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -53,6 +56,11 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+          {
+            to: 'blog',
+            position: 'left',
+            label: 'Blog',
+          },
           {
             type: 'doc',
             docId: 'intro',
