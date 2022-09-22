@@ -61,10 +61,6 @@ export default function Comments() {
                 <input
                     type="submit"
                     value="Add Comment"
-                    style={{
-                        fontWeight: 600,
-                        padding: '8px 16px',
-                    }}
                     disabled={charCount === CHARACTER_MAX}
                 />
             </div>
